@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bcg3"
+        android:padding="20dp"
+        android:scrollbarStyle="insideInset">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject"
+                android:textColor="#0174DF"
+                android:textSize="10pt" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:layout_marginLeft="10dp"
+                android:background="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/URL"
+                android:text="URL"
+                android:textColor="#0174DF"
+                android:textSize="10pt" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/url"
+                android:layout_marginLeft="10dp"
+                android:background="#FFFFFF"
+                android:textSize="10pt" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_height="150dp"
+                android:layout_width="150dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/bodytxt"
+                    android:text="Overview"
+                    android:textColor="#0174DF"
+                    android:textSize="10pt" />
+
+                <EditText
+                    android:id="@+id/body"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#FFFFFF"
+                    android:textSize="10pt" />
+
+                <CheckBox
+                    android:id="@+id/chkwatched"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watched"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/orangebutton"
+                android:text="ADD TO FAVORITY" />
+
+            <Button
+                android:id="@+id/favor"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/orangebutton"
+                android:text="FAVORITE MOOVIES" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/orangebutton"
+                android:text="CANCEL"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

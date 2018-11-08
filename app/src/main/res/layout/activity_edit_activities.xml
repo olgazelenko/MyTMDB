@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bcg3"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:scrollbarStyle="insideInset">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject:"
+                android:textColor="#0174DF"
+                android:textSize="10pt" />
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#FFFFFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body"
+            android:textColor="#0174DF"
+            android:textSize="10pt" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="URL"
+                android:textColor="#0174DF"
+                android:textSize="10pt" />
+
+            <EditText
+                android:id="@+id/url"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#FFFFFF"
+                android:textSize="10pt" />
+            <EditText
+                android:id="@+id/watched"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#FFFFFF"
+                android:textSize="10pt" />
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/body"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:textSize="10pt" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <CheckBox
+                android:id="@+id/chkwatched"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="WATCHED"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/orangebutton"
+                android:text="UPDATE"
+                android:textSize="10pt" />
+
+            <Button
+                android:id="@+id/favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/orangebutton"
+                android:text="Favorite"
+                android:textSize="10pt"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orangebutton"
+            android:text="CANCEL"
+            android:textSize="10pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

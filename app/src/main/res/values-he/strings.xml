@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">סרטים שלי</string>
+    <string name="title_activity_movie">פרטי הסרט</string>
+    <string name="img_prefix">https://image.tmdb.org/t/p/w500/%1$s</string>
+    <string name="urlQuery">https://api.themoviedb.org/3/movie/top_rated?api_key=4e0be2c22f7268edffde97481d49064a&amp;language=en-US&amp;page=</string>
+    <string name="Movie">סרט</string>
+    <string name="marker">מרקר</string>
+    <string name="Movie_edit">ארוך סרט</string>
+    <string name="Movie_id">Movie_id</string>
+    <string name="Not_Watched">לא ראיתי</string>
+    <string name="Watched">ראיתי</string>
+    <string name="MovieList">רשימת הסרטים</string>
+    <string name="Date_format">yyyy.MM.dd</string>
+    <string name="intVariableName">intVariableName</string>
+    <string name="src_prefix">https://api.themoviedb.org/3/search/movie?&amp;query=</string>
+    <string name="src_sufix">&amp;api_key=4e0be2c22f7268edffde97481d49064a</string>
+    <string name="Update_Toast">שנה שם סרט ל: </string>
+
+</resources>

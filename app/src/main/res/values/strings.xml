@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyTMDB</string>
+    <string name="title_activity_movie">MovieActivity</string>
+    <string name="img_prefix">https://image.tmdb.org/t/p/w500/%1$s</string>
+    <string name="urlQuery">https://api.themoviedb.org/3/movie/top_rated?api_key=4e0be2c22f7268edffde97481d49064a&amp;language=en-US&amp;page=</string>
+    <string name="Movie">Movie</string>
+    <string name="marker">marker</string>
+    <string name="Movie_edit">Movie_edit</string>
+    <string name="Movie_id">Movie_id</string>
+    <string name="Not_Watched">Not Watched</string>
+    <string name="Watched">Watched</string>
+    <string name="MovieList">MovieList</string>
+    <string name="Date_format">yyyy.MM.dd</string>
+    <string name="intVariableName">intVariableName</string>
+    <string name="src_prefix">https://api.themoviedb.org/3/search/movie?&amp;query=</string>
+    <string name="src_sufix">&amp;api_key=4e0be2c22f7268edffde97481d49064a</string>
+    <string name="Update_Toast">Updated title to: </string>
+
+</resources>
